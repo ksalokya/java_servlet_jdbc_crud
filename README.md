@@ -1,1 +1,12 @@
 # java_servlet_jdbc_crud
+
+```
+CREATE TABLE users(
+	id INT(3) NOT NULL AUTO_INCREMENT,
+	NAME VARCHAR(128) NOT NULL,
+	email VARCHAR(128) NOT NULL,
+	country VARCHAR(128) NOT NULL,
+	phone VARCHAR(128) NOT NULL,
+	PRIMARY KEY (id)
+)
+```
